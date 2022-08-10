@@ -29,10 +29,13 @@ body {
 .title{
   color: var(--medium);
   background-color: var(--enfasis);
+  text-shadow: 0px 0px 5px black;
+
 }
 .comment{
   color: var(--medium);
   background-color: var(--enfasis);
+  text-align: center;
 }
 
 /* Defining the padding and the border radius of the target. */
