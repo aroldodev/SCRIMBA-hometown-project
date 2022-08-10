@@ -1,6 +1,5 @@
-
-/* Importing a font from google fonts. */
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 /* Defining the colors that will be used in the css. */
 :root {
@@ -11,15 +10,14 @@
 }
 
 body {
-  font-family: 'Happy Monkey', cursive;
   margin: 0;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .main {
   background-image: url(https://visitferrol.com/wp-content/uploads/2018/04/SliderHome05.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,14 +25,12 @@ body {
   padding: 200px ;
 }
 .title{
-  color: var(--medium);
-  background-color: var(--enfasis);
   text-shadow: 0px 0px 5px black;
-
+}
+.target:hover {
+  transform: scale(1.3);
 }
 .comment{
-  color: var(--medium);
-  background-color: var(--enfasis);
   text-align: center;
 }
 
@@ -42,4 +38,31 @@ body {
 .target {
   padding: 10px 20px;
   border-radius: 10px;
+  color: var(--medium);
+  background-color: var(--enfasis);
+  font-family: 'Happy Monkey', cursive;
+}
+
+.activities {
+  background-color: var(--second);
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0px;
+}
+
+.activity {
+  margin: 0;
+  text-align: center;
+  max-width: 300px;
+}
+
+.activity_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: -5px -5px 10px black;
+}
+
+.activity_image:hover {
+  transform: scale(1.1);
 }
