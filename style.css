@@ -1,0 +1,42 @@
+
+/* Importing a font from google fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+/* Defining the colors that will be used in the css. */
+:root {
+  --enfasis: #006d77;
+  --second: #83c5be;
+  --medium: #edf6f9;
+  --low: #e29578;
+}
+
+body {
+  font-family: 'Happy Monkey', cursive;
+  margin: 0;
+}
+
+.main {
+  background-image: url(https://visitferrol.com/wp-content/uploads/2018/04/SliderHome05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  padding: 200px ;
+}
+.title{
+  color: var(--medium);
+  background-color: var(--enfasis);
+}
+.comment{
+  color: var(--medium);
+  background-color: var(--enfasis);
+}
+
+/* Defining the padding and the border radius of the target. */
+.target {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
