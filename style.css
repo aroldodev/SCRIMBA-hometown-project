@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 /* Defining the colors that will be used in the css. */
 :root {
@@ -65,4 +65,38 @@ body {
 
 .activity_image:hover {
   transform: scale(1.1);
+}
+
+.guide_card{
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  max-width: 700px;
+  height: 300px;
+  background-color: var(--low);
+  margin: 20px 0px;
+  align-items: center;
+  padding: 0px 20px;
+  border-radius: 20px;
+  border-bottom: 6px solid var(--enfasis);
+}
+
+.profile {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  border: 2px solid var(--enfasis);
+}
+
+.info {
+  max-width: 250px;
+  text-align: center;
+}
+#enfasis {
+  font-weight: bolder;
+  color: var(--medium);
+  text-shadow: 0px 0px 5px var(--enfasis);
 }
